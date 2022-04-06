@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+body{
+    font-size: 100;
+    background-color: #e7a300;
+    
+}
+
+.cabeçalho{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 24px;
+}
+
+.cabeçalho-imagem{
+    height: 85px;
+}
+
+.cabeçalho-imagem-escrito{
+    float: right;
+    max-width:180px;
+    margin-left:5px;
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    font-size: medium;
+
+    }
+
+    .cabeçalho-menu{
+        display: flex;
+
+        gap: 32px;
+    }
+.cabeçalho-menu-item{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 300px;
+    font-size: 15px;
+}
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 55px;
+
+
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400px;
+    font-size: 22px;
+    color: black;
+
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400px;
+    font-size: 22px;
+    color: black;
+
+}
+.conteudo-principal-escrito-botao{
+    background-color: rgb(18, 92, 189);
+margin-top: 2%;
+
+height: auto;
+width: auto;
+cursor: pointer;
+justify-content: center;
+padding: 2.9%;
+align-items: center;
+flex-direction: row;
+flex-wrap: wrap;
+border: none;
+box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+border-radius: 80px;
+font-family: 'Lato', sans-serif;
+    font-weight: 20;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+.rodape{
+    padding: 4.9px;
+ border-top: 0.40px solid #000000;
+}
+
+.rodape-imagem{
+  height: 50px;
+  margin: auto;
+  display: block;
+ 
+  justify-content: center;
+   align-items: center;
+}
+
+.conteudo{
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   flex-wrap: wrap;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(209, 208, 207, 0.53);
+  }
