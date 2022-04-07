@@ -11,9 +11,12 @@
 </head>
 <body>
     <header class="cabeçalho">
-       
-      
+    
+     
         <img class="cabeçalho-imagem" src="airplane 1.svg" alt="Imagem do planeta terra com um avião">
+    
+     
+    
        
 
 
@@ -24,16 +27,8 @@
     <a class="cabeçalho-menu-item">Início</a>
     <a class="cabeçalho-menu-item"> Sobre o Traveller</a>
    <a  class="cabeçalho-menu-item"> Viajando com o Traveller</a>
-<a class="cabeçalho-menu-item">Serviços
- <select class="cabeçalho-menu-item" name="Serviços" id= "Serviços"> </option>
-         <option value="Hospedagem">Hospedagem</option>
-         <option value="Pontos turísticos"> Pontos turísticos</option>
-         <option value="Roteiros gastronômicos">Roteiros gastronômicos</option>
-          <option value="Alugue seu carro">Alugue seu carro</option>
- </a>
-         </select>
-         
-<a class="cabeçalho-menu-item">Contatos</a>
+<a class="cabeçalho-menu-item">Serviços</a>
+         <a class="cabeçalho-menu-item">Contatos</a>
 
 
 
@@ -42,6 +37,7 @@
     </header>
 
     <main class="conteudo">
+      <article>
         <section class="conteudo-principal">
            
                 <div class="conteudo-principal-escrito">
@@ -50,10 +46,23 @@
                     <h2 class="conteudo-principal-escrito-subtitulo" > <em>A viagem dos seus sonhos começa aqui no Traveller! </em> </h2>
                 </div>
            
-                <img class="conteudo-principal-imagem" src="image 4.svg" alt="Imagem de um avatar sentado com fundo ilustrado de planeta terra">
+                <img class="conteudo-principal-imagem" src="image 15 (1).svg" alt="Imagem de um avatar sentado com fundo ilustrado de planeta terra">
 
-
+              </article>
         </section>
+
+
+      <aside class= "conteudo-principal-informação">
+<h3> Oferecemos os melhores serviços:</h3>
+<ol>
+    <li class="box_1">Hospedagem</li>
+    <li class="box_2">Alugue seu carro</li>
+    <li class="box_3">Roteiros gastronômicos</li>
+    <li class="box_4">Pontos turísticos</li>
+</ol>
+
+</aside>
+
 
 
     </main>
@@ -65,16 +74,19 @@
 
 
     </footer>
+    <!-- Implementar  Script para colocar leitor de libras-->
 
     <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
-        </div>
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div> 
       </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
-        new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+      
 </body>
 </html>
