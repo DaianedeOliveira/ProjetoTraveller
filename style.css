@@ -6,7 +6,10 @@
     box-sizing: border-box;
     text-decoration: none;
     max-width: 100%;
+    padding-right: 0.6%;
+
 }
+
 
 
 body{
@@ -22,6 +25,7 @@ body{
     text-decoration: none;
  background-attachment: local;
     position: absolute;
+
 }
 
 /* Cabeçalho */
@@ -305,7 +309,7 @@ margin: -7.8vh auto 0vh;
       color: rgb(5, 5, 5);
       font-size: 30px;
       text-align: center;
-      margin-top: 35px;
+      margin-top: 30px;
 padding-left: 20px;
 font-weight: bold;
 }
@@ -504,7 +508,7 @@ font-family: 'Lato', sans-serif;
 
 /* Dispositivos medios */
 @media screen and (min-width:412px) and (max-width: 768px){
-  .reservar, .conteudo-principal-escrito-titulo, .conteudo-principal-escrito-subtitulo, .nosso-contato, .entrar-contato, .cabeçalho, .cabeçalho-imagem, .imagem-app{
+ .reservar, .conteudo-principal-escrito-titulo, .conteudo-principal-escrito-subtitulo, .nosso-contato, .entrar-contato, .cabeçalho, .cabeçalho-imagem, .imagem-app{
 height: max-content;
   position: relative;
   width: 100%;
@@ -529,7 +533,7 @@ margin-left: 5%;
 
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
 @media only screen and (min-width: 992px)  {
-  .conteudo-principal-escrito-titulo, .conteudo-principal-escrito-subtitulo, .imagem-app{
+ body, .conteudo-principal-escrito-titulo, .conteudo-principal-escrito-subtitulo, .imagem-app{
 
  width: 100%;
 
