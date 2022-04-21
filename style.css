@@ -11,7 +11,7 @@
 
 body{
     font-size: medium;
-   background-image: url( "Group\ 1\ \(5\).svg");
+   background-image: url("img/Group\ 1\ \(5\).svg");
    background-repeat: no-repeat;
     background-size:cover;
     max-width: 100%;
@@ -502,19 +502,6 @@ font-family: 'Lato', sans-serif;
 
 
 
-/* Dispositivos pequenos */
-
-@media screen and (min-width: 250) and (max-width: 600px) {
-  .reservar, .conteudo-principal-escrito-titulo, .conteudo-principal-escrito-subtitulo, .nosso-contato, .imagem-app, .entrar-contato, .cabeçalho, .cabeçalho-imagem, .imagem-app{
-  
-  float: none;
-				width: 100%;
-				margin-right:0;
-}
-    
-}
-
-
 /* Dispositivos medios */
 @media screen and (min-width:412px) and (max-width: 768px){
   .reservar, .conteudo-principal-escrito-titulo, .conteudo-principal-escrito-subtitulo, .nosso-contato, .entrar-contato, .cabeçalho, .cabeçalho-imagem, .imagem-app{
@@ -544,7 +531,7 @@ margin-left: 5%;
 @media only screen and (min-width: 992px)  {
   .conteudo-principal-escrito-titulo, .conteudo-principal-escrito-subtitulo, .imagem-app{
 
- width: 90%;
+ width: 100%;
 
 
 }
