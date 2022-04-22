@@ -6,5 +6,5 @@
 # Acesse o link do projeto:
 Veja o projeto pronto: https://daianedeoliveira.github.io/ProjetoTraveller/
 
-# Desafios que tive: 
+# Desafios: 
 Durante o desenvolvimento desse site, meu maior desafio foi desenvolver as Medias Queries. Entretanto, me aprofundei nos estudos e consegui entender um pouco mais sobre o assunto. 
