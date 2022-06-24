@@ -14,8 +14,8 @@
 
 body{
     font-size: medium;
-   background-image: url("img/Group\ 1\ \(5\).svg");
-   background-repeat: no-repeat;
+    background-image: url("img/Group\ 1\ \(5\).svg");
+    background-repeat: no-repeat;
     background-size:cover;
     max-width: 100%;
     display: flex;
@@ -23,7 +23,7 @@ body{
     height: 500px;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
- background-attachment: local;
+  background-attachment: local;
     position: absolute;
 
 }
@@ -37,24 +37,26 @@ justify-content: space-around;
 padding: 20px;
 margin-top: auto;
 
-     }
+}
 
-
-     .cabeçalho-imagem{
-      height: 120px;
+  .cabeçalho-imagem{
+      height: 100px;
       padding: 8px;
       margin-left:4%;
-     }
+    
+    }
 
 
 
     /* colocar opções no menu "serviços" */
+.imagem{
+display: flex;
+align-items: center;
 
+}
 nav{
   text-align: right;
   box-sizing: border-box;
-
-  
 
 
 }
@@ -150,26 +152,28 @@ align-items: center;
 
 
 .conteudo-principal-titulo{
-      font-family:'Lato', sans-serif;
-      color: rgb(5, 5, 5);
-      font-size: 40px;
-      font-style: normal;
-      margin-left: 30px;
-margin-top: 30px;    
-     }
+font-family:'Lato', sans-serif;
+ color: rgb(5, 5, 5);
+ font-size: 40px;
+ font-style: normal;
+ margin-left: 30px;
+ margin-top: 30px;    
+    
+
+}
 
   
 
 
   .conteudo-principal-subtitulo{
 font-size: 20px;
-    font-style: normal;
-    text-decoration: none;
-     margin-top: 0.4%;
-     font-weight: bold;
-    color: rgb(5, 5, 5);
-    align-items: center;
-  height: 55px;
+font-style: normal;
+text-decoration: none;
+margin-top: 0.4%;
+font-weight: bold;
+color: rgb(5, 5, 5);
+align-items: center;
+height: 55px;
  
   }
 
@@ -326,10 +330,6 @@ font-weight: bold;
 }
 
 
-
-
-
-
 #quarto{
   height: 45vh;
   display: flex;
@@ -341,7 +341,6 @@ margin-left: 55px;
 
 
 }
-
 
 
 #quarto .quarto-imagem{
@@ -472,11 +471,10 @@ text-align: center;
 }
 
 .rodape-titulo{
- margin-left: 100px;
- padding-top: 30px;
- 
+margin-left: 100px;
+padding-top: 30px;
 text-align: center;
- color: #070707;
+color: #070707;
   font-size: 15px;
 font-weight: bold;
 font-style: italic;
@@ -492,11 +490,11 @@ font-family: 'Lato', sans-serif;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(255, 255, 255);
+  background: rgb(199, 226, 231);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color:  rgb(94, 170, 201);
+  background-color:  rgb(185, 178, 178);
   border-radius: 15px;
 }
 
@@ -523,19 +521,9 @@ margin-left: -75%;
 
 }
 .cabeçalho-imagem, .conteudo-principal-escrito{
-width: 80%;
+width: 100vh;
 margin-left: 5%;
 
 }
-
-}
-
-
-/* Dispostivos Largos (laptops/desktops, 992px para cima) */
-@media only screen and (min-width: 992px)  {
- body, .conteudo-principal-escrito-titulo, .conteudo-principal-escrito-subtitulo, .imagem-app{
-
- width: 100%;
-
 
 }
